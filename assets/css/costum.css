@@ -12,6 +12,9 @@ body    {
 .kecil  {
     font-size: 9pt;
 }
+.navbar-brand h2{
+    display: inline;
+}
 .navbar-brand  {
     line-height: 0.8;
     /* font-style: black; */
@@ -70,12 +73,34 @@ body    {
 #konten {
     min-height: 600px;
     background: #f0f0f0;
+    padding-bottom: 60px;
 }
 
 .card {
-    width: 28rem;
+    width: 98%;
 }
 
+.side-item  {
+    margin: 10px;
+    
+}
+.judul-side {
+    font-weight: bold;
+}
+
+.side-main  {
+    margin-top: 20px;
+}
+
+#footer {
+    height: 100px;
+    background: #2d2d2d;
+    line-height: 5;
+    color: floralwhite;
+}
+.copyright  {
+    font-size: 1em;
+}
 
 @media (max-width:576px){
     .navbar-nav{
