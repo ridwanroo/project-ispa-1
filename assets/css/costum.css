@@ -1,0 +1,88 @@
+body    {
+    font-family: 'Segoe UI',sans-serif;
+}
+#header {
+    background-image: linear-gradient(to bottom right,#23b488,#1B8C9F);
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+#header a {
+    color: azure;
+}
+.kecil  {
+    font-size: 9pt;
+}
+.navbar-brand  {
+    line-height: 0.8;
+    /* font-style: black; */
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.search {
+    border-radius: 20px;
+    background: none;
+    border: #fff 2px solid;
+    font-style: italic;
+    width: 100px;
+    color: azure;
+    margin: 2px;
+    text-align: center;
+    height: 35px;
+}
+
+.readmore   {
+    /* border: 1px #fff solid; */
+    border-radius: 20px;
+    background: #23b488;
+    padding: 8px;
+    font-weight: bold;
+    color:#000;
+    font-size: 12px;
+    font-style: italic;
+}
+.carousel-item a:hover{
+    color: #000;
+    text-decoration: none;
+}
+.carousel-caption   {
+    left:20%;
+    top: 10%;
+    text-align: left;
+    width: 350px;
+}
+
+.header-title {
+    background: #1B8C9F;
+    color:#fff;
+    width:210px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.garis  {
+    height: 5px;
+    background: #1B8C9F;
+    margin-top: -8px;
+}
+
+#konten {
+    min-height: 600px;
+    background: #f0f0f0;
+}
+
+.card {
+    width: 28rem;
+}
+
+
+@media (max-width:576px){
+    .navbar-nav{
+        font-size: 12px;
+    }
+    .search{
+        width: 250px;
+    }
+}
+
