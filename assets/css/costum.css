@@ -2,8 +2,8 @@ body    {
     font-family: 'Segoe UI',sans-serif;
 }
 #header {
-    background-image: linear-gradient(to bottom right,#23b488,#1B8C9F);
-    padding-top: 30px;
+    background-image: linear-gradient(45deg,#23b488,#1B8C9F);
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 #header a {
@@ -26,13 +26,12 @@ body    {
 .search {
     border-radius: 20px;
     background: none;
-    border: #fff 2px solid;
-    font-style: italic;
-    width: 100px;
-    color: azure;
+    border: #fff 1.5px solid;
+    color: #fff;
     margin: 2px;
     text-align: center;
     height: 35px;
+    width: 150px;
 }
 
 .readmore   {
@@ -59,19 +58,22 @@ body    {
 .header-title {
     background: #1B8C9F;
     color:#fff;
-    width:210px;
-    padding-left: 5px;
-    padding-top: 5px;
+    width:160px;
+    text-align: center;
+}
+
+.populer-title  {
+    background:#365261 !important;
 }
 
 .garis  {
-    height: 5px;
+    height: 3px;
     background: #1B8C9F;
     margin-top: -8px;
 }
 
 #konten {
-    min-height: 600px;
+    min-height: 400px;
     background: #f0f0f0;
     padding-bottom: 60px;
 }
@@ -93,7 +95,7 @@ body    {
 }
 
 #footer {
-    height: 100px;
+    height: 80px;
     background: #2d2d2d;
     line-height: 5;
     color: floralwhite;
@@ -107,7 +109,107 @@ body    {
         font-size: 12px;
     }
     .search{
-        width: 250px;
+        width: 240px;
     }
 }
+
+/* Halaman Download */
+#download1  {
+    background-image: linear-gradient(45deg, #23B488, #365261);
+    padding:20px;
+    min-height: 430px;
+    color: #fff;
+}
+#download2  {
+    background-image: linear-gradient( #23B488, #1B8C9F);
+    padding:20px;
+    min-height: 470px;
+    color: #fff;
+}
+#download3  {
+    background-image: linear-gradient(#365261, #1B8C9F);
+    padding:20px;
+    color: #fff;
+}
+.download-link  {
+    margin-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.gambar-download {
+    padding: 15px;
+}
+.text-download  {
+    width: 90%;
+    text-align: center;
+    margin-top:20%;
+}
+.text-download3  {
+    width: 90%;
+    text-align: center;
+    margin-top:10%;
+}
+.download-btn   {
+    font-size: 1.1em;
+    font-weight: 400;
+    font-style: italic;
+    color: #fff;
+    background: #23b488;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px ;
+    line-height: 0.8;
+}
+.images-illustrator1  {
+    width:70%;
+    margin-top: 20%;
+}
+.images-illustrator2  {
+    width:50%;
+    margin-top: 10%;
+}
+.images-illustrator3  {
+    width:23%;
+    margin-top: 5%;
+}
+.gambar3    {
+    justify-content: center;
+    justify-items: center;
+}
+
+/* download media */
+
+/* Kontak */
+
+#form  {
+    background-image: linear-gradient(#365261, #1B8C9F);
+    padding:20px;
+    min-height: 450px;
+    color: #fff;
+}
+
+.images-illustrator4 {
+    width:70%;
+    padding-top: 75px;
+}
+
+.artikel    {
+    background: #fff;
+    padding-left: 10px;
+    margin-top: 20px;
+    min-height: 600px;
+}
+
+.artikel-img    {
+    margin: 0 auto;
+    width: 480px;
+    height: 320px;
+}
+
+.judul-artikel , p{
+    padding: 10px 10px 10px 10px;
+}
+
 
